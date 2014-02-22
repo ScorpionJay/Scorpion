@@ -1,4 +1,18 @@
 Scorpion
 ========
 
-spring js
+Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
+
+Spring MVC 
+
+jQuery
+
+Datatables
+
+requirejs
+
+chosen
+
+Bootstrap
+
+
