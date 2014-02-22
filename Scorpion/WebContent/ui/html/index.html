@@ -1,0 +1,91 @@
+<!DOCTYPE html><!--DOCTYPE 不是html标签-->
+<html>
+    <head>
+        <title>Scorpion</title>
+        <!-- favicon -->
+        <link rel="icon" href="../img/favicon.ico">
+        <!-- Bootstrap css-->
+        <link href="../css/bootstrap/bootstrap.css" rel="stylesheet" media="screen">
+        <!-- DataTables css -->
+        <link href="../css/dataTables/jquery.dataTables.css" rel="stylesheet" type="text/css"/>
+        <!-- chosen css -->
+        <link href="../css/chosen/chosen.css" rel="stylesheet" type="text/css"/>
+        
+        <style type="text/css">
+            .navbar {
+                // background-color:green;
+      		}
+     
+            .nav li {
+                display: table-cell;
+                width: 1%;
+                float: none;
+            }
+            
+            .nav li a {
+                font-weight: bold;
+                text-align: center;
+                border: 1px solid rgba(0,0,0,.1);
+            }
+
+        </style>
+    </head>
+    <body> 
+
+        <!--top-->
+        
+        
+        <!--navigation-->
+        <div id="navigation"></div>
+        
+        
+        <!--navigation  /now get navigation from navigation.html
+        <div class="navbar">
+            <div class="container">
+                  <ul class="nav">
+                    <li class="active" id="home"><a href="#">Home</a></li>
+                      <li><a href="html/projects.html">Projects</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Downloads</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+            </div>
+        </div>
+		-->
+        
+        
+       
+        <div class="container">
+            <div class="btn-group">
+                <button class="btn btn-primary" id="new">New</button>
+                <button class="btn btn-primary" id="delete">Delete</button>
+                <button class="btn btn-primary" id="update">Update</button>
+            </div>
+        </div>
+		
+        
+        <div class='container'>
+            <select id='sel' data-placeholder="Choose a country..."  style="width:200px;">
+                <option></option>
+                <option>option1</option>
+                <option>option2</option>
+                <option>option3</option>
+            </select>
+        </div>
+        
+        
+        
+        <!--body-->
+        <div class="container">
+            <div id="demo">
+                <table cellpadding="0" cellspacing="0" border="0" class="table  table-hover " id="tab" width="80%">
+                </table>
+            </div>
+        </div>
+        <!--footer-->
+    </body>
+    
+    <!--only import require js-->
+    <script src="../js/vendor/require-jquery.js" data-main="../js/util"></script>
+</html>    

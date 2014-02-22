@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+    
+    <link rel="icon" href="../img/favicon.ico">
+        <!--Bootstrap css-->
+    <link href="../css/bootstrap/bootstrap.css" rel="stylesheet" media="screen">
+        <!--DataTables css-->
+    <link href="../css/dataTables/jquery.dataTables.css" rel="stylesheet" type="text/css"/>
+        
+        <style type="text/css">
+            .navbar {
+                // background-color:green;
+      		}
+     
+            .nav li {
+                display: table-cell;
+                width: 1%;
+                float: none;
+            }
+            
+            .nav li a {
+                font-weight: bold;
+                text-align: center;
+                border: 1px solid rgba(0,0,0,.1);
+            }
+
+        </style>
+    
+    
+<style type="text/css">
+	#gun{
+		margin:200;
+		width:200px;
+		height:200px;
+		background: red;
+		-webkit-transition-duration: 2s, 2s, 1s, 1s;
+		-webkit-transform: rotate(0deg);
+	}
+	#gun:hover{
+		-webkit-transition-duration: 2s, 2s, 1s, 1s;
+		-webkit-transform: rotate(360deg);
+	}
+</style>
+<body>
+    
+     <!--nabigation-->
+        <div id="navigation"></div>
+    
+    
+	<div id="gun"></div>
+</body>
+contact
+    <!--only import require js-->
+    <script src="../js/vendor/require-jquery.js" data-main="../js/util"></script>
+</html>
+
